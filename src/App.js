@@ -1,7 +1,10 @@
-import React from "react";
+import React from 'react';
+import Board from './components/Board';
+import './styles/root.scss';
 
 export default () => (
-  <>
-    <h1>React App!</h1>
-  </>
+  <div className="app">
+    <h1>TicTacToe</h1>
+    <Board />
+  </div>
 );
